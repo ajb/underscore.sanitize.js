@@ -1,7 +1,7 @@
 {
   "name": "underscore.sanitize.js",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "ajb <ad@mbecker.cc>"
   ],
@@ -20,6 +20,6 @@
   ],
   "dependencies": {
     "underscore": "*",
-    "sanitize.js": "*"
+    "ajb-sanitize": "*"
   }
 }
