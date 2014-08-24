@@ -1,0 +1,25 @@
+{
+  "name": "underscore.sanitize.js",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "ajb <ad@mbecker.cc>"
+  ],
+  "description": "Underscore mixin for sanitize.js",
+  "keywords": [
+    "underscore",
+    "sanitize.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "*",
+    "sanitize.js": "*"
+  }
+}
