@@ -3,7 +3,7 @@ _.mixin({
     try {
       var n = document.createElement('div');
       n.innerHTML = str;
-      var s = new Sanitize(config || Sanitize.Config.BASIC);
+      var s = new Sanitize(config || Sanitize.Config.RELAXED);
       var c = s.clean_node(n);
       var o = document.createElement('div');
       o.appendChild(c.cloneNode(true));
